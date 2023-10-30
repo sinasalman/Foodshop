@@ -1,0 +1,36 @@
+header{
+    background-color: #eee;
+    padding: 0%;
+    border: 2px solid rgb(236, 23, 98);
+    width: 100%;
+}
+a{
+    color: rgb(236, 23, 98);
+    &:hover{
+       transform: scale(1.2);
+       transition: 200ms;
+    }
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a.logo{
+
+    font-weight: bold;
+    padding: 1.5em;
+    margin-top: 13px;
+    
+}
+nav{
+    ul{
+        list-style-type: none;
+        li{
+            a{
+                padding: 1em;
+                display: inline-block;
+            }
+        }
+    }
+}

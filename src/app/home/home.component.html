@@ -1,0 +1,15 @@
+<div class="welcome">
+    hello welcome to our restaurant ... please choose the type of food taht you want
+</div>
+<ul>
+    <li *ngFor="let type of typeof" >
+        <a routerLink="{{type.route}}" @fade>
+            <div>
+                <img src="{{type.imgurl}}" alt="{{type.name}}">
+            </div>
+            <div >
+                {{type.name}}
+            </div>
+        </a>
+    </li>
+</ul>

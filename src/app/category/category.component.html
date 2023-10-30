@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let type of typeof">
+        <a routerLink="{{type.route}}">
+            <div>
+                <img src="{{type.imgurl}}" alt="{{type.name}}">
+            </div>
+            
+        </a>
+    </li>
+</ul>
